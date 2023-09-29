@@ -110,12 +110,8 @@ section {
     margin-bottom: 1rem;
   }
   
-  section img {
-    max-width: 150px;
-    height:  max-width: 150px;
-    height: auto;
-    margin-bottom: 1rem;
-  }
+  
+
   
   section p {
     font-size: 1.25rem;
