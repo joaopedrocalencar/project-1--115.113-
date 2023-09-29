@@ -59,6 +59,35 @@ nav {
     color: white;
 }
 
+/* styling main content */
+main {
+    background-color: #2dd497;
+    padding: 2rem 0;
+  }
+  
+  main h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  main p {
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+  }
+  
+  main button {
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  main button:hover {
+    background-color: #555;
+  }
+
 body {
     background-color: rgb(34, 173, 150);
 }
@@ -69,6 +98,56 @@ p {
     color: rgb(255, 255, 255);
     font-size: 230%;
 }
+
+/* styling about and contact sessions */
+
+section {
+    padding: 2rem 0;
+  }
+  
+  section h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  section img {
+    max-width: 150px;
+    height:  max-width: 150px;
+    height: auto;
+    margin-bottom: 1rem;
+  }
+  
+  section p {
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+  }
+  
+  section#contact form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  section#contact input,
+  section#contact textarea {
+    font-size: 1rem;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #333;
+  }
+  
+  section#contact button {
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  section#contact button:hover {
+    background-color: #555;
+  }
+
 p.important{
     
     font-size:250%;
