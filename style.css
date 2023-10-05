@@ -92,7 +92,7 @@ main {
   }
 
 body {
-    background-color: rgb(34, 173, 150);
+    background-color: #22ad96;
 }
 h1 {
     color: rgb(255, 255, 255);
@@ -175,33 +175,35 @@ p.important{
 .column1 {
   float: left;
   width: auto;
-  padding: 20px;
-  padding-left: 40px;
-  padding-right: 40px;
-  padding-bottom: 20px;
+  padding: 12px;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-bottom: 12px;
   height: auto;
-  margin: 20px;
-  margin-right: 24px; 
+  margin: 12px;
+  margin-right: 12px; 
   margin-bottom: 12px;
   margin-top: 12px;
-  background-color: white;
+  background-color:#22ad96;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .column2 {
   float: left;
-  width: auto;
-  padding: 20px;
-  padding-left: 40px;
-  padding-right: 40px;
-  padding-bottom: 20px;
+  padding: 12px;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-bottom: 12px;
   height: auto;
-  margin: 20px;
-  margin-left: 24px; 
+  margin-left: 0;
   margin-bottom: 12px;
   margin-top: 12px;
-  background-color: white;
+  background-color: #22ad96;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: calc(50% - 12px);
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
 }
 
 /* google maps scale with the size of the browser */
@@ -220,4 +222,18 @@ p.important{
     top: 0;
     position: absolute;
 }
-
+    /* grid */
+    .grid-container {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr); 
+      grid-gap: 20px; 
+      justify-content: center; 
+    }
+    .section {
+      padding: 20px;
+      background-color: #22ad96;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+iframe {
+margin-left: 30px;
+}
